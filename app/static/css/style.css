@@ -1,0 +1,71 @@
+:root {
+    --color-primary: #6A5495;       /* основной фиолетовый */
+    --color-primary-hover: #B0A7C0; /* фиолетовый для hover */
+    --color-card-bg: #FFFFFF;       /* фон карточек */
+    --color-card-border: #B0A7C0;   /* бордер карточек */
+    --color-body-bg: #F7F7F7;       /* фон страницы */
+    --color-body-text: #2E2E2E;     /* основной текст */
+    --color-link: #6A5495;          /* ссылки */
+    --color-link-hover: #B0A7C0;    /* hover ссылки */
+    --color-navbar-text: #FFFFFF;   /* текст в navbar */
+}
+
+.btn-primary {
+    background-color: var(--color-primary) !important;
+    border-color: var(--color-primary) !important;
+}
+
+.btn-primary:hover {
+    background-color: var(--color-primary-hover) !important;
+    border-color: var(--color-primary-hover) !important;
+}
+
+.navbar.bg-primary {
+    background-color: var(--color-primary) !important;
+}
+
+.navbar.bg-primary .navbar-brand,
+.navbar.bg-primary .nav-link {
+    color: var(--color-navbar-text) !important;
+}
+
+.card {
+    background-color: var(--color-card-bg);
+    border: 1px solid var(--color-card-border);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--color-body-text);
+}
+
+body {
+    background-color: var(--color-body-bg);
+    color: var(--color-body-text);
+}
+
+a {
+    color: var(--color-link);
+}
+
+a:hover {
+    color: var(--color-link-hover);
+    text-decoration: none;
+}
+
+.badge.bg-primary {
+    background-color: var(--color-primary) !important;
+}
+
+.alert-primary {
+    background-color: var(--color-primary) !important;
+    color: var(--color-navbar-text);
+    border-color: var(--color-primary) !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: var(--color-card-border);
+    width: 40px;
+    height: 40px;
+    background-size: 100%, 100%;
+}

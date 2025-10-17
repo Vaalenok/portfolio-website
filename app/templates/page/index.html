@@ -1,0 +1,1162 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Алексей Сидельников</title>
+        <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    </head>
+    <body>
+        <div class="container mt-5">
+            <div class="mb-4 text-center">
+                <h1 class="fw-bold display-5">Алексей Сидельников</h1>
+            </div>
+
+            <div class="mb-5 mt-4 text-center text-md-start">
+                <div class="d-flex flex-column flex-md-row align-items-center mb-5 mt-4">
+                    <img src="{% static 'images/icons/tiu.jpg' %}" alt="ТИУ" class="rounded-circle me-md-3 mb-3 mb-md-0" style="width:60px; height:60px;">
+                    <div class="text-center text-md-start">
+                        <p class="mb-1 fw-bold">Тюменский Индустриальный Университет (ТИУ)</p>
+                        <p class="mb-0"><em>Бакалавриат, 02.03.01 Математика и компьютерные науки (2022 — 2026)</em></p>
+                    </div>
+                </div>
+                <p style="text-indent: 2em;">
+                    Я начинающий разработчик с некоммерческим опытом около 3 лет, реализовал несколько собственных
+                    пет-проектов, участвовал в учебных проектах и хакатонах. Быстро осваиваю новые технологии, умею
+                    работать в команде и доводить проекты до результата. Стремлюсь создавать качественные, эффективные
+                    решения и развиваться в интересующих меня профессиональных направлениях. Основные интересы — веб
+                    разработка и машинное обучение. На данный момент активно ищу работу. Ну и попрошу сильно не
+                    смотреть на сам сайт, поскольку дизайнер из меня так себе...
+                </p>
+            </div>
+
+            <div class="mb-5 mt-4">
+                <h2 class="fw-bold mb-4 text-center display-5">Навыки</h2>
+
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    <div class="col">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center mb-3 flex-wrap">
+                                    <img src="{% static 'images/icons/python.png' %}" alt="Python" class="me-3 mb-2 mb-md-0" style="width:40px; height:40px;">
+                                    <h5 class="fw-bold mb-0">Python</h5>
+                                </div>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <span class="badge rounded-pill text-bg-secondary">asyncio</span>
+                                    <span class="badge rounded-pill text-bg-secondary">aiogram</span>
+                                    <span class="badge rounded-pill text-bg-secondary">aiohttp</span>
+                                    <span class="badge rounded-pill text-bg-secondary">httpx</span>
+                                    <span class="badge rounded-pill text-bg-secondary">requests</span>
+                                    <span class="badge rounded-pill text-bg-secondary">beautifulsoup4</span>
+                                    <span class="badge rounded-pill text-bg-secondary">sqlalchemy</span>
+                                    <span class="badge rounded-pill text-bg-secondary">Django</span>
+                                    <span class="badge rounded-pill text-bg-secondary">FastAPI</span>
+                                    <span class="badge rounded-pill text-bg-secondary">jupyter</span>
+                                    <span class="badge rounded-pill text-bg-secondary">scikit-learn</span>
+                                    <span class="badge rounded-pill text-bg-secondary">pandas</span>
+                                    <span class="badge rounded-pill text-bg-secondary">numpy</span>
+                                    <span class="badge rounded-pill text-bg-secondary">matplotlib</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center mb-3 flex-wrap">
+                                    <img src="{% static 'images/icons/C#.png' %}" alt="C#" class="me-3 mb-2 mb-md-0" style="width:40px; height:40px;">
+                                    <h5 class="fw-bold mb-0">C#</h5>
+                                </div>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <span class="badge rounded-pill text-bg-secondary">Blazor</span>
+                                    <span class="badge rounded-pill text-bg-secondary">Razor</span>
+                                    <span class="badge rounded-pill text-bg-secondary">Wpf</span>
+                                    <span class="badge rounded-pill text-bg-secondary">OpenApi</span>
+                                    <span class="badge rounded-pill text-bg-secondary">EntityFrameworkCore</span>
+                                    <span class="badge rounded-pill text-bg-secondary">AspNetCore</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center mb-3 flex-wrap">
+                                    <img src="{% static 'images/icons/miscellaneous.svg' %}" alt="Разное" class="me-3 mb-2 mb-md-0" style="width:40px; height:40px;">
+                                    <h5 class="fw-bold mb-0">Разное</h5>
+                                </div>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <span class="badge rounded-pill text-bg-secondary">Rust</span>
+                                    <span class="badge rounded-pill text-bg-secondary">C++</span>
+                                    <span class="badge rounded-pill text-bg-secondary">Linux</span>
+                                    <span class="badge rounded-pill text-bg-secondary">HTML</span>
+                                    <span class="badge rounded-pill text-bg-secondary">Bootstrap</span>
+                                    <span class="badge rounded-pill text-bg-secondary">SQL</span>
+                                    <span class="badge rounded-pill text-bg-secondary">PostgreSQL</span>
+                                    <span class="badge rounded-pill text-bg-secondary">Docker</span>
+                                    <span class="badge rounded-pill text-bg-secondary">docker-compose</span>
+                                    <span class="badge rounded-pill text-bg-secondary">Git</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mb-5 mt-4">
+                <h2 class="fw-bold mb-3 text-center display-5">Проекты</h2>
+
+                <h3 class="fw-bold mb-3 mt-4 text-center">Учебные</h3>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="{% static 'images/projects/tofy/main.jpg' %}" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Педагог года</h5>
+                                <p class="card-text">Сайт всероссийского конкурса «Педагог года 2025»</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tofy">
+                                    Подробнее
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="{% static 'images/projects/engine/main.png' %}" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Neothauma</h5>
+                                <p class="card-text">Самописный 3D движок</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#engine">
+                                    Подробнее
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="{% static 'images/projects/roadmap/main.png' %}" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Дорожная карта мигранта</h5>
+                                <p class="card-text">Итоговая работа по дисциплине «Проектирование информационных систем»</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#roadmap">
+                                    Подробнее
+                                </button>
+                                <span class="badge text-bg-secondary mt-3">
+                                    🔒Закрытый репозиторий
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="{% static 'images/projects/tiumnichka/main.png' %}" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">ТИУмничка</h5>
+                                <p class="card-text">Игровой бот для абитуриентов</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tiumnichka">
+                                    Подробнее
+                                </button>
+                                <span class="badge text-bg-secondary mt-3">
+                                    🔒Закрытый репозиторий
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h3 class="fw-bold mb-3 mt-4 text-center">Пет</h3>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="{% static 'images/projects/remanga/main.png' %}" class="card-img-top" alt="">
+                            <div class="card-body"> <h5 class="card-title">Бот-парсер сайта Remanga</h5>
+                                <p class="card-text"></p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#remanga">
+                                    Подробнее
+                                </button>
+                                <span class="badge text-bg-secondary mt-3">
+                                    🔒Закрытый репозиторий
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="{% static 'images/projects/yt/main.png' %}" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Бот-нарезчик видео с YouTube</h5>
+                                <p class="card-text"></p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#yt">
+                                    Подробнее
+                                </button>
+                                <span class="badge text-bg-secondary mt-3">
+                                    🔒Закрытый репозиторий
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="{% static 'images/projects/events/main.png' %}" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Парсер контактов</h5>
+                                <p class="card-text"></p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#events">
+                                    Подробнее
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="{% static 'images/projects/weather/main.png' %}" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Сайт – погода по городам</h5>
+                                <p class="card-text"></p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#weather">
+                                    Подробнее
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="{% static 'images/projects/cash/main.png' %}" class="card-img-top" alt="">
+                            <div class="card-body"> <h5 class="card-title">Сайт – денежные потоки</h5>
+                                <p class="card-text"></p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cash">
+                                    Подробнее
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="{% static 'images/projects/anon/main.png' %}" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Анонимный чат Telegram</h5>
+                                <p class="card-text"></p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#anon">
+                                    Подробнее
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="{% static 'images/projects/ml/main.png' %}" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Решение задач машинного обучения</h5>
+                                <p class="card-text"></p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ml">
+                                    Подробнее
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="{% static 'images/projects/resume/main.png' %}" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Сайт – резюме</h5>
+                                <p class="card-text"></p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#resume">
+                                    Подробнее
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mb-5 mt-5">
+                <h2 class="fw-bold mb-4 text-center display-5">Достижения</h2>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="{% static 'images/diplomas/innoglobalhack.png' %}" class="card-img-top" alt="Диплом 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Всероссийский хакатон «INNOGLOBALHACK» 2024</h5>
+                                <p class="card-text">3 место в кейсе «ScoreWorker»</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="{% static 'images/diplomas/ural_code.png' %}" class="card-img-top" alt="Диплом 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Областной хакатон «Уральский код» 2024</h5>
+                                <p class="card-text">3 место в кейсе «Интеллектуальный ассистент преподавателя»</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="{% static 'images/diplomas/tofy.png' %}" class="card-img-top" alt="Диплом 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Педагог года 2025</h5>
+                                <p class="card-text">Грамота за реализацию сайта голосования для всероссийского конкурса «Педагог года 2025»</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-5 mb-5 text-center">
+                <h2 class="fw-bold mb-4 display-5">Связаться со мной</h2>
+                <div class="d-flex flex-wrap justify-content-center gap-4">
+                    <a href="tel:+79505030271" class="card border-0 shadow-sm text-decoration-none text-dark" style="width: 180px;">
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <img src="{% static 'images/icons/phone.svg' %}" alt="Телефон" width="36" height="36" class="mb-2">
+                            <p class="mb-0 fw-semibold">+7 (950) 503-02-71</p>
+                        </div>
+                    </a>
+                    <a href="mailto:ya.sidelnikov@bk.ru" class="card border-0 shadow-sm text-decoration-none text-dark" style="width: 180px;">
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <img src="{% static 'images/icons/email.svg' %}" alt="Email" width="36" height="36" class="mb-2">
+                            <p class="mb-0 fw-semibold">ya.sidelnikov@bk.ru</p>
+                        </div>
+                    </a>
+                    <a href="https://t.me/aabashka" target="_blank" class="card border-0 shadow-sm text-decoration-none text-dark" style="width: 180px;">
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <img src="{% static 'images/icons/telegram.svg' %}" alt="Telegram" width="36" height="36" class="mb-2">
+                            <p class="mb-0 fw-semibold">Telegram</p>
+                        </div>
+                    </a>
+                    <a href="https://vk.ru/vaalenok" target="_blank" class="card border-0 shadow-sm text-decoration-none text-dark" style="width: 180px;">
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <img src="{% static 'images/icons/vk.svg' %}" alt="VK" width="36" height="36" class="mb-2">
+                            <p class="mb-0 fw-semibold">VK</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="text-center mb-5">
+                <a href="#" class="btn btn-primary rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
+                    ↑
+                </a>
+            </div>
+        </div>
+
+        <!-- Модальные окна -->
+        <div class="modal fade" id="tofy" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="projectModalLabel">Педагог года 2025</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <div id="carousel_tofy" class="carousel slide mb-3" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="ratio ratio-16x9">
+                                        <img src="{% static 'images/projects/tofy/main.jpg' %}" class="d-block w-100 h-100 object-fit-contain" alt="Скриншот 1">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="ratio ratio-16x9">
+                                        <img src="{% static 'images/projects/tofy/pic1.jpg' %}" class="d-block w-100 h-100 object-fit-contain" alt="Скриншот 2">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel_tofy" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Назад</span>
+                            </button>
+
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel_tofy" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Вперед</span>
+                            </button>
+                        </div>
+
+                        <div class="mb-3">
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="badge rounded-pill text-bg-secondary">C#</span>
+                                <span class="badge rounded-pill text-bg-secondary">Blazor</span>
+                                <span class="badge rounded-pill text-bg-secondary">Razor</span>
+                                <span class="badge rounded-pill text-bg-secondary">Bootstrap</span>
+                                <span class="badge rounded-pill text-bg-secondary">EntityFramework</span>
+                                <span class="badge rounded-pill text-bg-secondary">SQLite</span>
+                                <span class="badge rounded-pill text-bg-secondary">Docker</span>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <p>
+                                Сайт для проведения голосования, оценки научных работ и информирования участников
+                                всероссийского конкурса Педагог года 2025. Разрабатывался около 8 месяцев в команде из 6
+                                человек и директора ВШЦТ, Сидорова Андрея Юрьевича. Я занимался серверной частью,
+                                структурой базы данных, частично валидацией и полями ввода, а также согласованием
+                                функциональности с внутренним регламентом проведения конкурса. На данный момент проект
+                                отслужил свою функцию и больше не доступен, т.к. конкурс окончен.
+                            </p>
+                        </div>
+
+                        <div class="mb-3">
+                            <a href="https://github.com/Andrey-1970/hits.TeacherOfTheYear" target="_blank" class="btn btn-dark me-2 mb-2">
+                                GitHub проекта
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="engine" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="projectModalLabel">Neothauma</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <div id="carousel_engine" class="carousel slide mb-3" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="ratio ratio-16x9">
+                                        <img src="{% static 'images/projects/engine/main.png' %}" class="d-block w-100 h-100 object-fit-contain" alt="Скриншот 1">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="ratio ratio-16x9">
+                                        <img src="{% static 'images/projects/engine/pic1.png' %}" class="d-block w-100 h-100 object-fit-contain" alt="Скриншот 2">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="ratio ratio-16x9">
+                                        <img src="{% static 'images/projects/engine/pic2.png' %}" class="d-block w-100 h-100 object-fit-contain" alt="Скриншот 3">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel_engine" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Назад</span>
+                            </button>
+
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel_engine" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Вперед</span>
+                            </button>
+                        </div>
+
+                        <div class="mb-3">
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="badge rounded-pill text-bg-secondary">Rust</span>
+                                <span class="badge rounded-pill text-bg-secondary">pollster</span>
+                                <span class="badge rounded-pill text-bg-secondary">wgpu</span>
+                                <span class="badge rounded-pill text-bg-secondary">winit</span>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <p>
+                                Реализована геометрия, освещение (без теней), сцена, ecs система.
+                                Начинал разрабатывать этот проект ради интереса и с целью изучить Rust, но сейчас
+                                собираюсь довести его до ума и использовать в качестве выпускной квалификационной работы.
+                                Находится на стадии тяжёлых разбирательств с устройством теней в компьютерной графике.
+                            </p>
+                        </div>
+
+                        <div class="mb-3">
+                            <a href="https://github.com/Vaalenok/Neothauma" target="_blank" class="btn btn-dark me-2 mb-2">
+                                GitHub проекта
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="roadmap" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="projectModalLabel">Дорожная карта мигранта</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <div id="carousel_roadmap" class="carousel slide mb-3" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="ratio ratio-16x9">
+                                        <img src="{% static 'images/projects/roadmap/pic1.png' %}" class="d-block w-100 h-100 object-fit-contain" alt="Скриншот 1">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="ratio ratio-16x9">
+                                        <img src="{% static 'images/projects/roadmap/pic2.png' %}" class="d-block w-100 h-100 object-fit-contain" alt="Скриншот 2">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="ratio ratio-16x9">
+                                        <img src="{% static 'images/projects/roadmap/main.png' %}" class="d-block w-100 h-100 object-fit-contain" alt="Скриншот 3">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="ratio ratio-16x9">
+                                        <img src="{% static 'images/projects/roadmap/pic3.png' %}" class="d-block w-100 h-100 object-fit-contain" alt="Скриншот 4">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="ratio ratio-16x9">
+                                        <img src="{% static 'images/projects/roadmap/pic4.png' %}" class="d-block w-100 h-100 object-fit-contain" alt="Скриншот 5">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel_roadmap" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Назад</span>
+                            </button>
+
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel_roadmap" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Вперед</span>
+                            </button>
+                        </div>
+
+                        <div class="mb-3">
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="badge rounded-pill text-bg-secondary">C#</span>
+                                <span class="badge rounded-pill text-bg-secondary">WPF</span>
+                                <span class="badge rounded-pill text-bg-secondary">EntityFramework</span>
+                                <span class="badge rounded-pill text-bg-secondary">DynamicExpresso</span>
+                                <span class="badge rounded-pill text-bg-secondary">PostgreSQL</span>
+                                <span class="badge rounded-pill text-bg-secondary">OpenAPI</span>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <p>
+                                Система, позволяющая пользователю (мигранту) просматривать свою
+                                индивидуальную дорожную карту по получению ВНЖ, а администратору – управлять правилами
+                                её формирования. Ключевые особенности: гибкая система правил и динамическое обновление.
+                                Система содержит в себе набор правил, исходя из которых составляется дорожная карта.
+                                Правила можно добавлять, удалять и редактировать - можно изменять условие, сроки,
+                                порядок, результат выполнения и название. Проект окончен и сдан на 91 балл.
+                            </p>
+                        </div>
+
+                        <div class="mb-3">
+                            <span class="badge text-bg-secondary mt-3">
+                                🔒Закрытый репозиторий
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="tiumnichka" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="projectModalLabel">ТИУмничка</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <div id="carousel_tiumnichka" class="carousel slide mb-3" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="ratio ratio-16x9">
+                                        <img src="{% static 'images/projects/tiumnichka/main.png' %}" class="d-block w-100 h-100 object-fit-contain" alt="Скриншот 1">
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="ratio ratio-16x9">
+                                        <img src="{% static 'images/projects/tiumnichka/pic1.png' %}" class="d-block w-100 h-100 object-fit-contain" alt="Скриншот 2">
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="ratio ratio-16x9">
+                                        <img src="{% static 'images/projects/tiumnichka/pic2.png' %}" class="d-block w-100 h-100 object-fit-contain" alt="Скриншот 3">
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="ratio ratio-16x9">
+                                        <img src="{% static 'images/projects/tiumnichka/pic3.png' %}" class="d-block w-100 h-100 object-fit-contain" alt="Скриншот 4">
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="ratio ratio-16x9">
+                                        <img src="{% static 'images/projects/tiumnichka/pic4.png' %}" class="d-block w-100 h-100 object-fit-contain" alt="Скриншот 5">
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="ratio ratio-16x9">
+                                        <img src="{% static 'images/projects/tiumnichka/pic5.png' %}" class="d-block w-100 h-100 object-fit-contain" alt="Скриншот 6">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel_tiumnichka" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Назад</span>
+                            </button>
+
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel_tiumnichka" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Вперед</span>
+                            </button>
+                        </div>
+
+                        <div class="mb-3">
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="badge rounded-pill text-bg-secondary">Python</span>
+                                <span class="badge rounded-pill text-bg-secondary">aiogram</span>
+                                <span class="badge rounded-pill text-bg-secondary">SQLAlchemy</span>
+                                <span class="badge rounded-pill text-bg-secondary">openpyxl</span>
+                                <span class="badge rounded-pill text-bg-secondary">fastapi</span>
+                                <span class="badge rounded-pill text-bg-secondary">pydantic</span>
+                                <span class="badge rounded-pill text-bg-secondary">starlette</span>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <p>
+                                Проект некоторое время функционировал в продакшене, но
+                                был закрыт из-за юридических ограничений на его внедрение в процесс зачисления
+                                абитуриентов и расхождения между изначальной концепцией и итоговым продуктом. Идея
+                                заключалась в следующем - найти и отобрать сильнейших и\или упорнейших абитуриентов с
+                                помощью тестов и викторин, показывающих их общий уровень знаний и вовлечённость в
+                                процесс поступления. В боте были викторины, мини игры, рейтинг и админ панель, где можно
+                                было добавлять вопросы викторин через xlsx файлы; добавлять и удалять мини игры,
+                                редактировать их названия; отправлять личные сообщения пользователям; банить
+                                пользователей (например за маты в нике); добавлять и удалять администраторов (только для
+                                супер админа). Проект заброшен, но в его последние часы число пользователей было чуть
+                                больше 50.
+                            </p>
+                        </div>
+
+                        <div class="mb-3">
+                            <span class="badge text-bg-secondary mt-3">
+                                🔒Закрытый репозиторий
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="remanga" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="projectModalLabel">Бот-парсер сайта Remanga</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <div id="carousel_remanga" class="carousel slide mb-3" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="ratio ratio-16x9">
+                                        <img src="{% static 'images/projects/remanga/main.png' %}" class="d-block w-100 h-100 object-fit-contain" alt="Скриншот 1">
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="ratio ratio-16x9">
+                                        <img src="{% static 'images/projects/remanga/pic1.png' %}" class="d-block w-100 h-100 object-fit-contain" alt="Скриншот 2">
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="ratio ratio-16x9">
+                                        <img src="{% static 'images/projects/remanga/pic2.png' %}" class="d-block w-100 h-100 object-fit-contain" alt="Скриншот 3">
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="ratio ratio-16x9">
+                                        <img src="{% static 'images/projects/remanga/pic3.png' %}" class="d-block w-100 h-100 object-fit-contain" alt="Скриншот 4">
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="ratio ratio-16x9">
+                                        <img src="{% static 'images/projects/remanga/pic4.png' %}" class="d-block w-100 h-100 object-fit-contain" alt="Скриншот 5">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel_remanga" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Назад</span>
+                            </button>
+
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel_remanga" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Вперед</span>
+                            </button>
+                        </div>
+
+                        <div class="mb-3">
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="badge rounded-pill text-bg-secondary">Python</span>
+                                <span class="badge rounded-pill text-bg-secondary">asyncio</span>
+                                <span class="badge rounded-pill text-bg-secondary">aiogram</span>
+                                <span class="badge rounded-pill text-bg-secondary">aiohttp</span>
+                                <span class="badge rounded-pill text-bg-secondary">beautifulsoup4</span>
+                                <span class="badge rounded-pill text-bg-secondary">SQLAlchemy</span>
+                                <span class="badge rounded-pill text-bg-secondary">matplotlib</span>
+                                <span class="badge rounded-pill text-bg-secondary">tenacity</span>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <p>
+                                Предназначен для поиска и учёта проектов (комиксов), которые
+                                доступны для перевода. Данный бот решает огромную проблему команд-переводчиков, которая
+                                заключается в невозможности ручного отслеживания десятков тысяч комиксов на сайте. Бот
+                                ежедневно парсит всю информацию обо всех проектах на сайте и аккуратно раскладывает это
+                                всё в базе данных и отображает всё красиво в телеграме. Первый мой серьёзный проект,
+                                который я писал полностью сам и который до сих пор активно используется.
+                            </p>
+                        </div>
+
+                        <div class="mb-3">
+                            <span class="badge text-bg-secondary mt-3">
+                                🔒Закрытый репозиторий
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="yt" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="projectModalLabel">Бот-нарезчик видео с YouTube</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <div id="carousel_yt" class="carousel slide mb-3" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="ratio ratio-16x9">
+                                        <img src="{% static 'images/projects/yt/main.png' %}" class="d-block w-100 h-100 object-fit-contain" alt="Скриншот 1">
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="ratio ratio-16x9">
+                                        <img src="{% static 'images/projects/yt/pic1.png' %}" class="d-block w-100 h-100 object-fit-contain" alt="Скриншот 2">
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="ratio ratio-16x9">
+                                        <img src="{% static 'images/projects/yt/pic2.png' %}" class="d-block w-100 h-100 object-fit-contain" alt="Скриншот 3">
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="ratio ratio-16x9">
+                                        <img src="{% static 'images/projects/yt/pic3.png' %}" class="d-block w-100 h-100 object-fit-contain" alt="Скриншот 4">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel_yt" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Назад</span>
+                            </button>
+
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel_yt" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Вперед</span>
+                            </button>
+                        </div>
+
+                        <div class="mb-3">
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="badge rounded-pill text-bg-secondary">Python</span>
+                                <span class="badge rounded-pill text-bg-secondary">asyncio</span>
+                                <span class="badge rounded-pill text-bg-secondary">aiogram</span>
+                                <span class="badge rounded-pill text-bg-secondary">aiohttp</span>
+                                <span class="badge rounded-pill text-bg-secondary">httpx</span>
+                                <span class="badge rounded-pill text-bg-secondary">SQLAlchemy</span>
+                                <span class="badge rounded-pill text-bg-secondary">yt-dlp</span>
+                                <span class="badge rounded-pill text-bg-secondary">moviepy</span>
+                                <span class="badge rounded-pill text-bg-secondary">torch</span>
+                                <span class="badge rounded-pill text-bg-secondary">ollama</span>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <p>
+                                Предназначен для поиска, категоризации и нарезки видео с YouTube. Поиск видео
+                                производится по ключевым словам в автоматическом режиме через Google API,
+                                категоризация настроена через локальную llm, а скачивают и нарезают видео yt-dlp и
+                                moviepy соответственно. Создан в коммерческих целях, активно используется и
+                                дорабатывается. Основная цель проекта - полностью автоматизировать весь путь от поиска
+                                видео до их загрузки по частям и интересным моментам.
+                            </p>
+                        </div>
+
+                        <div class="mb-3">
+                            <span class="badge text-bg-secondary mt-3">
+                                🔒Закрытый репозиторий
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="events" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="projectModalLabel">Парсер контактов</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <div id="carousel_events" class="carousel slide mb-3" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="ratio ratio-16x9">
+                                        <img src="{% static 'images/projects/events/main.png' %}" class="d-block w-100 h-100 object-fit-contain" alt="Скриншот 1">
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="ratio ratio-16x9">
+                                        <img src="{% static 'images/projects/events/pic1.png' %}" class="d-block w-100 h-100 object-fit-contain" alt="Скриншот 2">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel_events" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Назад</span>
+                            </button>
+
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel_events" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Вперед</span>
+                            </button>
+                        </div>
+
+                        <div class="mb-3">
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="badge rounded-pill text-bg-secondary">Python</span>
+                                <span class="badge rounded-pill text-bg-secondary">asyncio</span>
+                                <span class="badge rounded-pill text-bg-secondary">aiohttp</span>
+                                <span class="badge rounded-pill text-bg-secondary">beautifulsoup4</span>
+                                <span class="badge rounded-pill text-bg-secondary">openpyxl</span>
+                                <span class="badge rounded-pill text-bg-secondary">tenacity</span>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <p>
+                                Тестовое задание для вакансии Python разработчик. Парсер ищет и структурирует контактные
+                                данные представителей компаний, проводящих свадьбы в Майами. Использовал углубленный
+                                поиск и регулярные выражения для поиска контактной информации и ссылок на соцсети.
+                            </p>
+                        </div>
+
+                        <div class="mb-3">
+                            <a href="https://github.com/Vaalenok/event_agencies" target="_blank" class="btn btn-dark me-2 mb-2">
+                                GitHub проекта
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="weather" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="projectModalLabel">Сайт – погода по городам</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <div id="carousel_weather" class="carousel slide mb-3" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="ratio ratio-16x9">
+                                        <img src="{% static 'images/projects/weather/main.png' %}" class="d-block w-100 h-100 object-fit-contain" alt="Скриншот 1">
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="ratio ratio-16x9">
+                                        <img src="{% static 'images/projects/weather/pic1.png' %}" class="d-block w-100 h-100 object-fit-contain" alt="Скриншот 2">
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="ratio ratio-16x9">
+                                        <img src="{% static 'images/projects/weather/pic2.png' %}" class="d-block w-100 h-100 object-fit-contain" alt="Скриншот 3">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel_weather" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Назад</span>
+                            </button>
+
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel_weather" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Вперед</span>
+                            </button>
+                        </div>
+
+                        <div class="mb-3">
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="badge rounded-pill text-bg-secondary">Python</span>
+                                <span class="badge rounded-pill text-bg-secondary">Django</span>
+                                <span class="badge rounded-pill text-bg-secondary">requests</span>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <p>
+                                Тестовое задание для вакансии Python разработчик. На сайте можно узнать погоду на
+                                ближайшие дни. Присутствуют подсказки при вводе, история поиска и api для получения
+                                информации о количестве запросов.
+                            </p>
+                        </div>
+
+                        <div class="mb-3">
+                            <a href="https://github.com/Vaalenok/weather_app" target="_blank" class="btn btn-dark me-2 mb-2">
+                                GitHub проекта
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="cash" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="projectModalLabel">Сайт – денежные потоки</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <div id="carousel_cash" class="carousel slide mb-3" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="ratio ratio-16x9">
+                                        <img src="{% static 'images/projects/cash/main.png' %}" class="d-block w-100 h-100 object-fit-contain" alt="Скриншот 1">
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="ratio ratio-16x9">
+                                        <img src="{% static 'images/projects/cash/pic1.png' %}" class="d-block w-100 h-100 object-fit-contain" alt="Скриншот 2">
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="ratio ratio-16x9">
+                                        <img src="{% static 'images/projects/cash/pic2.png' %}" class="d-block w-100 h-100 object-fit-contain" alt="Скриншот 3">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel_cash" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Назад</span>
+                            </button>
+
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel_cash" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Вперед</span>
+                            </button>
+                        </div>
+
+                        <div class="mb-3">
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="badge rounded-pill text-bg-secondary">Python</span>
+                                <span class="badge rounded-pill text-bg-secondary">Django</span>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <p>
+                                Тестовое задание для вакансии Python разработчик. Сайт предназначен для управления
+                                движением денежных средств. Можно добавлять, редактировать и удалять записи. Также есть
+                                фильтры для отображения и редактор справочников для администрации.
+                            </p>
+                        </div>
+
+                        <div class="mb-3">
+                            <a href="https://github.com/Vaalenok/cash_flow" target="_blank" class="btn btn-dark me-2 mb-2">
+                                GitHub проекта
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="anon" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="projectModalLabel">Анонимный чат Telegram</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <div id="carousel_anon" class="carousel slide mb-3" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="ratio ratio-16x9">
+                                        <img src="{% static 'images/projects/anon/main.png' %}" class="d-block w-100 h-100 object-fit-contain" alt="Скриншот 1">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="badge rounded-pill text-bg-secondary">Python</span>
+                                <span class="badge rounded-pill text-bg-secondary">aiogram</span>
+                                <span class="badge rounded-pill text-bg-secondary">SQLAlchemy</span>
+                                <span class="badge rounded-pill text-bg-secondary">tenacity</span>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <p>
+                                Нечего сказать о нём, это просто анонимный чат. Написал его за пару часов от скуки.
+                            </p>
+                        </div>
+
+                        <div class="mb-3">
+                            <a href="https://github.com/Vaalenok/anonymous_chat" target="_blank" class="btn btn-dark me-2 mb-2">
+                                GitHub проекта
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="ml" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="projectModalLabel">Решение задач машинного обучения</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <div id="carousel_ml" class="carousel slide mb-3" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="ratio ratio-16x9">
+                                        <img src="{% static 'images/projects/ml/main.png' %}" class="d-block w-100 h-100 object-fit-contain" alt="Скриншот 1">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="badge rounded-pill text-bg-secondary">Python</span>
+                                <span class="badge rounded-pill text-bg-secondary">jupyter</span>
+                                <span class="badge rounded-pill text-bg-secondary">pandas</span>
+                                <span class="badge rounded-pill text-bg-secondary">numpy</span>
+                                <span class="badge rounded-pill text-bg-secondary">matplotlib</span>
+                                <span class="badge rounded-pill text-bg-secondary">scikit-learn</span>
+                                <span class="badge rounded-pill text-bg-secondary">scipy</span>
+                                <span class="badge rounded-pill text-bg-secondary">joblib</span>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <p>
+                                Репозиторий с моими экспериментами по машинному обучению.
+                            </p>
+                        </div>
+
+                        <div class="mb-3">
+                            <a href="https://github.com/Vaalenok/ml" target="_blank" class="btn btn-dark me-2 mb-2">
+                                GitHub проекта
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="resume" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="projectModalLabel">Сайт – резюме</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <div id="carousel_resume" class="carousel slide mb-3" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="ratio ratio-16x9">
+                                        <img src="{% static 'images/projects/resume/main.png' %}" class="d-block w-100 h-100 object-fit-contain" alt="Скриншот 1">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="badge rounded-pill text-bg-secondary">Python</span>
+                                <span class="badge rounded-pill text-bg-secondary">Django</span>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <p>
+                                Этот сайт.
+                            </p>
+                        </div>
+
+                        <div class="mb-3">
+                            <a href="https://github.com/Vaalenok/portfolio-website" target="_blank" class="btn btn-dark me-2 mb-2">
+                                GitHub проекта
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+    </body>
+</html>
