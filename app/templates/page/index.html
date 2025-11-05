@@ -35,6 +35,17 @@
                     разработка и машинное обучение. На данный момент активно ищу работу. Ну и попрошу сильно не
                     смотреть на сам сайт, поскольку дизайнер из меня так себе...
                 </p>
+
+                <div class="d-flex justify-content-center justify-content-md-start gap-3 mt-3">
+                    <a href="https://github.com/Vaalenok" target="_blank" class="text-decoration-none">
+                        <img src="{% static 'images/icons/github.png' %}" alt="GitHub"
+                             style="width:40px; height:40px;">
+                    </a>
+                    <a href="https://www.codewars.com/users/Vaalenok" target="_blank" class="text-decoration-none">
+                        <img src="{% static 'images/icons/codewars.svg' %}" alt="Codewars"
+                             style="width:40px; height:40px;">
+                    </a>
+                </div>
             </div>
 
             <div class="mb-5 mt-4">
@@ -56,13 +67,17 @@
                                     <span class="badge rounded-pill text-bg-secondary">requests</span>
                                     <span class="badge rounded-pill text-bg-secondary">beautifulsoup4</span>
                                     <span class="badge rounded-pill text-bg-secondary">sqlalchemy</span>
-                                    <span class="badge rounded-pill text-bg-secondary">Django</span>
-                                    <span class="badge rounded-pill text-bg-secondary">FastAPI</span>
+                                    <span class="badge rounded-pill text-bg-secondary">django</span>
+                                    <span class="badge rounded-pill text-bg-secondary">fastapi</span>
                                     <span class="badge rounded-pill text-bg-secondary">jupyter</span>
                                     <span class="badge rounded-pill text-bg-secondary">scikit-learn</span>
                                     <span class="badge rounded-pill text-bg-secondary">pandas</span>
                                     <span class="badge rounded-pill text-bg-secondary">numpy</span>
                                     <span class="badge rounded-pill text-bg-secondary">matplotlib</span>
+                                    <span class="badge rounded-pill text-bg-secondary">pydantic</span>
+                                    <span class="badge rounded-pill text-bg-secondary">uvicorn</span>
+                                    <span class="badge rounded-pill text-bg-secondary">environs</span>
+                                    <span class="badge rounded-pill text-bg-secondary">colorlog</span>
                                 </div>
                             </div>
                         </div>
@@ -96,8 +111,11 @@
                                 </div>
                                 <div class="d-flex flex-wrap gap-2">
                                     <span class="badge rounded-pill text-bg-secondary">Rust</span>
+                                    <span class="badge rounded-pill text-bg-secondary">Go</span>
+                                    <span class="badge rounded-pill text-bg-secondary">Java</span>
                                     <span class="badge rounded-pill text-bg-secondary">C++</span>
                                     <span class="badge rounded-pill text-bg-secondary">1С</span>
+                                    <span class="badge rounded-pill text-bg-secondary">Postman</span>
                                     <span class="badge rounded-pill text-bg-secondary">Linux</span>
                                     <span class="badge rounded-pill text-bg-secondary">HTML</span>
                                     <span class="badge rounded-pill text-bg-secondary">Bootstrap</span>
@@ -187,6 +205,18 @@
                                 <span class="badge text-bg-secondary mt-3">
                                     🔒Закрытый репозиторий
                                 </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="{% static 'images/projects/auth/main.png' %}" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Самописный сервис аутентификации</h5>
+                                <p class="card-text"></p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#auth">
+                                    Подробнее
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -733,7 +763,7 @@
                                 Предназначен для поиска и учёта проектов (комиксов), которые
                                 доступны для перевода. Данный бот решает огромную проблему команд-переводчиков, которая
                                 заключается в невозможности ручного отслеживания десятков тысяч комиксов на сайте. Бот
-                                ежедневно парсит всю информацию обо всех проектах на сайте и аккуратно раскладывает это
+                                ежедневно парсит всю информацию обо всех проектах на сайте, аккуратно раскладывает это
                                 всё в базе данных и отображает всё красиво в телеграме. Первый мой серьёзный проект,
                                 который я писал полностью сам и который до сих пор активно используется.
                             </p>
@@ -743,6 +773,68 @@
                             <span class="badge text-bg-secondary mt-3">
                                 🔒Закрытый репозиторий
                             </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="auth" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="projectModalLabel">Самописный сервис аутентификации</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <div id="carousel_auth" class="carousel slide mb-3" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="ratio ratio-16x9">
+                                        <img src="{% static 'images/projects/auth/main.png' %}" class="d-block w-100 h-100 object-fit-contain" alt="Скриншот 1">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="ratio ratio-16x9">
+                                        <img src="{% static 'images/projects/auth/pic1.png' %}" class="d-block w-100 h-100 object-fit-contain" alt="Скриншот 2">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel_auth" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Назад</span>
+                            </button>
+
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel_auth" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Вперед</span>
+                            </button>
+                        </div>
+
+                        <div class="mb-3">
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="badge rounded-pill text-bg-secondary">Python</span>
+                                <span class="badge rounded-pill text-bg-secondary">fastapi</span>
+                                <span class="badge rounded-pill text-bg-secondary">sqlalchemy</span>
+                                <span class="badge rounded-pill text-bg-secondary">uvicorn</span>
+                                <span class="badge rounded-pill text-bg-secondary">pydantic</span>
+                                <span class="badge rounded-pill text-bg-secondary">bcrypt</span>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <p>
+                                Тестовое задание на вакансию Python разработчик. Сделаны регистрация и авторизация, а
+                                также удобные разграничение доступа и редактирование правил доступа.
+                            </p>
+                        </div>
+
+                        <div class="mb-3">
+                            <a href="https://github.com/Vaalenok/auth_service" target="_blank" class="btn btn-dark me-2 mb-2">
+                                GitHub проекта
+                            </a>
                         </div>
                     </div>
                 </div>
