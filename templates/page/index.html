@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Проекты | Алексей Сидельников</title>
+        <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    </head>
+    <body>
+        <aside class="site-header" role="complementary">
+            <p class="site-header__title">Алексей<br>Сидельников</p>
+            <p class="site-header__description">Backend разработчик</p>
+            <nav class="site-navigation" role="navigation">
+                <b class="site-navigation__item" href="/">Проекты</b>
+                <a class="site-navigation__item" href="/about">Обо мне</a>
+            </nav>
+        </aside>
+        <main class="site-main" role="main">
+            <div class="blocks-wrapper">
+                <div class="typo">
+                    <h1>Проекты</h1>
+                </div>
+                <br>
+                <div class="cards">
+                    <!-- Левая колонка -->
+                    <div class="card">
+                        <a href="https://github.com/Andrey-1970/hits.TeacherOfTheYear">
+                            <img src="{% static 'images/projects/tofy/main.jpg' %}" alt="Скриншот">
+                        </a>
+                        <div class="padding">
+                            <div class="tags">Сайт</div>
+                            <h2 class="title">
+                                <a href="https://github.com/Andrey-1970/hits.TeacherOfTheYear">Педагог года</a>
+                            </h2>
+                            <p>Платформа для проведения всероссийского конкурса</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <a href="https://github.com/Vaalenok/Neothauma">
+                            <img src="{% static 'images/projects/engine/main.png' %}" alt="Скриншот">
+                        </a>
+                        <div class="padding">
+                            <div class="tags">3D движок</div>
+                            <h2 class="title">
+                                <a href="https://github.com/Vaalenok/Neothauma">Neothauma</a>
+                            </h2>
+                            <p>Самописный движок</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <a class="text-muted" role="button" onclick="alert('Это закрытый репозиторий')">
+                            <img src="{% static 'images/projects/tiumnichka/main.png' %}" alt="Скриншот">
+                        </a>
+                        <div class="padding">
+                            <div class="tags">Телеграм бот</div>
+                            <h2 class="title">
+                                <a class="title" role="button" onclick="alert('Это закрытый репозиторий')">
+                                    ТИУмничка
+                                </a>
+                            </h2>
+                            <p>Игровой бот для абитуриентов ТИУ</p>
+                            <span class="badge text-bg-danger mt-5 w-100 fs-4">
+                                Закрытый репозиторий
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <a href="https://github.com/Vaalenok/anonymous_chat">
+                            <img src="{% static 'images/projects/anon/main.png' %}" alt="Скриншот">
+                        </a>
+                        <div class="padding">
+                            <div class="tags">Телеграм бот</div>
+                            <h2 class="title">
+                                <a href="https://github.com/Vaalenok/anonymous_chat">Анонимный чат</a>
+                            </h2>
+                            <p>Копия популярного телеграм бота</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <a href="https://github.com/Vaalenok/event_agencies">
+                            <img src="{% static 'images/projects/events/main.png' %}" alt="Скриншот">
+                        </a>
+                        <div class="padding">
+                            <div class="tags">Парсер</div>
+                            <h2 class="title">
+                                <a href="https://github.com/Vaalenok/event_agencies">Парсер контактов</a>
+                            </h2>
+                            <p>Решение тестового задания</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <a href="https://github.com/Vaalenok/cash_flow">
+                            <img src="{% static 'images/projects/cash/main.png' %}" alt="Скриншот">
+                        </a>
+                        <div class="padding">
+                            <div class="tags">Сайт</div>
+                            <h2 class="title">
+                                <a href="https://github.com/Vaalenok/cash_flow">Денежные потоки</a>
+                            </h2>
+                            <p>Решение тестового задания</p>
+                        </div>
+                    </div>
+
+                    <!-- Правая колонка -->
+                    <div class="card">
+                        <a class="text-muted" role="button" onclick="alert('Это закрытый репозиторий')">
+                            <img src="{% static 'images/projects/remanga/main.png' %}" alt="Скриншот">
+                        </a>
+                        <div class="padding">
+                            <div class="tags">Телеграм бот</div>
+                            <h2 class="title">
+                                <a class="title" role="button" onclick="alert('Это закрытый репозиторий')">
+                                    Парсер сайта Remanga
+                                </a>
+                            </h2>
+                            <p>Ежедневно обновляет информацию о десятках тысяч проектов с сайта Remanga.org</p>
+                            <span class="badge text-bg-danger mt-5 w-100 fs-4">
+                                Закрытый репозиторий
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <a class="text-muted" role="button" onclick="alert('Это закрытый репозиторий')">
+                            <img src="{% static 'images/projects/roadmap/main.png' %}" alt="Скриншот">
+                        </a>
+                        <div class="padding">
+                            <div class="tags">Десктоп приложение</div>
+                            <h2 class="title">
+                                <a class="title" role="button" onclick="alert('Это закрытый репозиторий')">
+                                    Дорожная карта мигранта
+                                </a>
+                            </h2>
+                            <p>Составляет план получения гражданства</p>
+                            <span class="badge text-bg-danger mt-5 w-100 fs-4">
+                                Закрытый репозиторий
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <a class="text-muted" role="button" onclick="alert('Это закрытый репозиторий')">
+                            <img src="{% static 'images/projects/yt/pic1.png' %}" alt="Скриншот">
+                        </a>
+                        <div class="padding">
+                            <div class="tags">Телеграм бот</div>
+                            <h2 class="title">
+                                <a class="title" role="button" onclick="alert('Это закрытый репозиторий')">
+                                    Нарезчик видео
+                                </a>
+                            </h2>
+                            <p>Автоматически создаёт "виральные" видео</p>
+                            <span class="badge text-bg-danger mt-5 w-100 fs-4">
+                                Закрытый репозиторий
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <a href="https://github.com/Vaalenok/ml">
+                            <img src="{% static 'images/projects/ml/main.png' %}" alt="Скриншот">
+                        </a>
+                        <div class="padding">
+                            <div class="tags">Учебный проект</div>
+                            <h2 class="title">
+                                <a href="https://github.com/Vaalenok/ml">Machine learning</a>
+                            </h2>
+                            <p>Решение задач машинного обучения</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <a href="https://github.com/Vaalenok/auth_service">
+                            <img src="{% static 'images/projects/auth/main.png' %}" alt="Скриншот">
+                        </a>
+                        <div class="padding">
+                            <div class="tags">Сервис</div>
+                            <h2 class="title">
+                                <a href="https://github.com/Vaalenok/auth_service">Сервис аутентификации</a>
+                            </h2>
+                            <p>Решение тестового задания</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <a href="https://github.com/Vaalenok/weather_app">
+                            <img src="{% static 'images/projects/weather/main.png' %}" alt="Скриншот">
+                        </a>
+                        <div class="padding">
+                            <div class="tags">Сайт</div>
+                            <h2 class="title">
+                                <a href="https://github.com/Vaalenok/weather_app">Погода по городам</a>
+                            </h2>
+                            <p>Решение тестового задания</p>
+                        </div>
+                    </div>
+
+{#                    <div class="card">#}
+{#                        <a href="https://github.com/Vaalenok/portfolio-website">#}
+{#                            <img src="{% staticfiles 'images/projects/resume/main.png' %}" alt="Скриншот">#}
+{#                        </a>#}
+{#                        <div class="padding">#}
+{#                            <div class="tags">Сайт</div>#}
+{#                            <h2 class="title">#}
+{#                                <a href="https://github.com/Vaalenok/portfolio-website">Веб портфолио</a>#}
+{#                            </h2>#}
+{#                            <p>Репозиторий этого сайта</p>#}
+{#                        </div>#}
+{#                    </div>#}
+                </div>
+            </div>
+        </main>
+        <footer class="site-footer" role="contentinfo">
+            <a class="site-footer__link" href="https://t.me/aabashka">
+                <img src="{% static 'images/icons/telegram.svg' %}" class="site-footer__icon" alt="">
+            </a>
+            <a class="site-footer__link" href="https://vk.com/vaalenok">
+                <img src="{% static 'images/icons/vk.svg' %}" class="site-footer__icon" alt="">
+            </a>
+            <a class="site-footer__link" href="https://github.com/Vaalenok">
+                <img src="{% static 'images/icons/github.svg' %}" class="site-footer__icon" alt="">
+            </a>
+            <a class="site-footer__link" href="https://www.codewars.com/users/Vaalenok">
+                <img src="{% static 'images/icons/codewars.svg' %}" class="site-footer__icon" alt="">
+            </a>
+        </footer>
+    </body>
+</html>

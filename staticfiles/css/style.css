@@ -1,3 +1,8 @@
+@import url('header.css');
+@import url('main.css');
+@import url('card.css');
+@import url('footer.css');
+
 :root {
     --color-primary: #6A5495;       /* основной фиолетовый */
     --color-primary-hover: #B0A7C0; /* фиолетовый для hover */
@@ -8,6 +13,18 @@
     --color-link: #6A5495;          /* ссылки */
     --color-link-hover: #B0A7C0;    /* hover ссылки */
     --color-navbar-text: #FFFFFF;   /* текст в navbar */
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    font-size: 10px;
+    overflow-y: scroll;
 }
 
 .btn-primary {
@@ -30,26 +47,36 @@
 }
 
 .card {
-    background-color: var(--color-card-bg);
-    border: 1px solid var(--color-card-border);
+    background-color: var(--color-card-bg) !important;
+    border: 1px solid var(--color-card-border) !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: var(--color-body-text);
+    color: var(--color-body-text) !important;
 }
 
 body {
-    background-color: var(--color-body-bg);
-    color: var(--color-body-text);
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+    font-weight: 400;
+    word-break: break-word;
+    height: 100%;
+    font-size: 10px;
+    font-family: 'Nunito Sans', sans-serif !important;
+    background-color: var(--color-body-bg) !important;
+    color: var(--color-body-text) !important;
 }
 
 a {
-    color: var(--color-link);
+    text-decoration: none;
+    color: var(--color-link) !important;
 }
 
 a:hover {
-    color: var(--color-link-hover);
-    text-decoration: none;
+    color: var(--color-link-hover) !important;
+    text-decoration: none !important;
 }
 
 .badge.bg-primary {
@@ -58,14 +85,6 @@ a:hover {
 
 .alert-primary {
     background-color: var(--color-primary) !important;
-    color: var(--color-navbar-text);
+    color: var(--color-navbar-text) !important;
     border-color: var(--color-primary) !important;
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    background-color: var(--color-card-border);
-    width: 40px;
-    height: 40px;
-    background-size: 100%, 100%;
 }

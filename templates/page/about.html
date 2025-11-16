@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Обо мне | Алексей Сидельников</title>
+        <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    </head>
+    <body>
+        <aside class="site-header" role="complementary">
+            <p class="site-header__title">Алексей<br>Сидельников</p>
+            <p class="site-header__description">Backend разработчик</p>
+            <nav class="site-navigation" role="navigation">
+                <a class="site-navigation__item" href="/">Проекты</a>
+                <b class="site-navigation__item" href="/about">Обо мне</b>
+            </nav>
+        </aside>
+        <main class="site-main" role="main">
+            <article class="typo white-content fs-3">
+                <h1>Обо мне</h1>
+                <p style="text-indent: 2em;">
+                    Я начинающий разработчик с трехлетним опытом работы над личными проектами и учебными задачами. Мне
+                    нравится пробовать новые технологии и я очень быстро в них осваиваюсь. Умею работать в команде и
+                    доводить идеи до результата. Стремлюсь создавать удобные, эффективные решения и постоянно обучение.
+                    Сейчас я активно ищу возможности присоединиться к команде, где смогу учиться, расти и приносить
+                    реальную пользу проектам.
+                </p>
+                <p style="text-indent: 2em;">
+                    Для связи предпочитаю телеграм <a href="https://t.me/aabashka">@aabashka</a> или почту
+                    <a href="mailto:ya.sidelnikov@bk.ru">ya.sidelnikov@bk.ru</a>
+                </p>
+                <div class="d-flex flex-column flex-md-row align-items-center mb-5 mt-4">
+                    <img src="{% static 'images/icons/tiu.jpg' %}" alt="ТИУ" class="rounded-circle me-md-3 mb-3 mb-md-0"
+                         style="width:60px; height:60px;">
+                    <div class="text-center text-md-start">
+                        <p class="mb-1 fw-bold">Тюменский Индустриальный Университет</p>
+                        <p class="mb-0"><em>Бакалавриат, 02.03.01 Математика и компьютерные науки (2022 — 2026)</em></p>
+                    </div>
+                    <img src="{% static 'images/icons/iu.png' %}" alt="Иннополис" class="rounded-circle me-md-3 mb-3 mb-md-0"
+                         style="width:60px; height:60px;">
+                    <div class="text-center text-md-start">
+                        <p class="mb-1 fw-bold">Университет Иннополис</p>
+                        <p class="mb-0"><em>Разработка цифровых решений на базе технологий 1С (2025)</em></p>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    <div class="col">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center mb-3 flex-wrap">
+                                    <img src="{% static 'images/icons/python.png' %}" alt="Python" class="me-3 mb-2 mb-md-0"
+                                         style="width:40px; height:40px;">
+                                    <h5 class="fw-bold mb-0">Python</h5>
+                                </div>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <span class="badge rounded-pill bg-danger">aiogram</span>
+                                    <span class="badge rounded-pill bg-danger">aiohttp</span>
+                                    <span class="badge rounded-pill bg-danger">sqlalchemy</span>
+                                    <span class="badge rounded-pill bg-danger">django</span>
+                                    <span class="badge rounded-pill text-bg-secondary">asyncio</span>
+                                    <span class="badge rounded-pill text-bg-secondary">httpx</span>
+                                    <span class="badge rounded-pill text-bg-secondary">requests</span>
+                                    <span class="badge rounded-pill text-bg-secondary">beautifulsoup4</span>
+                                    <span class="badge rounded-pill text-bg-secondary">fastapi</span>
+                                    <span class="badge rounded-pill text-bg-secondary">jupyter</span>
+                                    <span class="badge rounded-pill text-bg-secondary">scikit-learn</span>
+                                    <span class="badge rounded-pill text-bg-secondary">pandas</span>
+                                    <span class="badge rounded-pill text-bg-secondary">numpy</span>
+                                    <span class="badge rounded-pill text-bg-secondary">matplotlib</span>
+                                    <span class="badge rounded-pill text-bg-secondary">pydantic</span>
+                                    <span class="badge rounded-pill text-bg-secondary">uvicorn</span>
+                                    <span class="badge rounded-pill text-bg-secondary">environs</span>
+                                    <span class="badge rounded-pill text-bg-secondary">colorlog</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center mb-3 flex-wrap">
+                                    <img src="{% static 'images/icons/C#.png' %}" alt="C#" class="me-3 mb-2 mb-md-0"
+                                         style="width:40px; height:40px;">
+                                    <h5 class="fw-bold mb-0">C#</h5>
+                                </div>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <span class="badge rounded-pill bg-danger">Blazor</span>
+                                    <span class="badge rounded-pill bg-danger">Wpf</span>
+                                    <span class="badge rounded-pill bg-danger">EntityFrameworkCore</span>
+                                    <span class="badge rounded-pill text-bg-secondary">Razor</span>
+                                    <span class="badge rounded-pill text-bg-secondary">OpenApi</span>
+                                    <span class="badge rounded-pill text-bg-secondary">AspNetCore</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card h-100 shadow-sm p-3">
+                        <div class="d-flex align-items-center mb-3 flex-wrap">
+                            <img src="{% static 'images/icons/miscellaneous.svg' %}" alt="Разное" class="me-3 mb-2 mb-md-0"
+                                 style="width:40px; height:40px;">
+                            <h5 class="fw-bold mb-0">Разное</h5>
+                        </div>
+
+                        <div class="mb-2">
+                            <small class="text-muted">Языки:</small>
+                            <div class="d-flex flex-wrap gap-2 mt-1">
+                                <span class="badge rounded-pill bg-primary">Rust</span>
+                                <span class="badge rounded-pill bg-primary">Go</span>
+                                <span class="badge rounded-pill bg-primary">Java</span>
+                                <span class="badge rounded-pill bg-primary">C++</span>
+                                <span class="badge rounded-pill bg-primary">1С</span>
+                            </div>
+                        </div>
+
+                        <div class="mb-2">
+                            <small class="text-muted">Инструменты:</small>
+                            <div class="d-flex flex-wrap gap-2 mt-1">
+                                <span class="badge rounded-pill bg-success">Postman</span>
+                                <span class="badge rounded-pill bg-success">Linux</span>
+                                <span class="badge rounded-pill bg-success">Git</span>
+                            </div>
+                        </div>
+
+                        <div class="mb-2">
+                            <small class="text-muted">Базы данных:</small>
+                            <div class="d-flex flex-wrap gap-2 mt-1">
+                                <span class="badge rounded-pill bg-warning text-dark">SQL</span>
+                                <span class="badge rounded-pill bg-warning text-dark">PostgreSQL</span>
+                            </div>
+                        </div>
+
+                        <div>
+                            <small class="text-muted">DevOps:</small>
+                            <div class="d-flex flex-wrap gap-2 mt-1">
+                                <span class="badge rounded-pill bg-info text-dark">Docker</span>
+                                <span class="badge rounded-pill bg-info text-dark">docker-compose</span>
+                                <span class="badge rounded-pill bg-info text-dark">Bootstrap</span>
+                                <span class="badge rounded-pill bg-info text-dark">HTML</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-5 mt-5">
+                    <h2 class="fw-bold mb-4 text-center display-5">Достижения</h2>
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="{% static 'images/diplomas/innoglobalhack.png' %}" class="card-img-top"
+                                     alt="Диплом 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Всероссийский хакатон «INNOGLOBALHACK» 2024</h5>
+                                    <p class="card-text">3 место в кейсе «ScoreWorker»</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="{% static 'images/diplomas/ural_code.png' %}" class="card-img-top"
+                                     alt="Диплом 2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Областной хакатон «Уральский код» 2024</h5>
+                                    <p class="card-text">3 место в кейсе «Интеллектуальный ассистент преподавателя»</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="{% static 'images/diplomas/tofy.png' %}" class="card-img-top" alt="Диплом 3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Педагог года 2025</h5>
+                                    <p class="card-text">Грамота за реализацию сайта голосования для всероссийского конкурса «Педагог года 2025»</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </main>
+        <footer class="site-footer" role="contentinfo">
+            <a class="site-footer__link" href="https://t.me/aabashka">
+                <img src="{% static 'images/icons/telegram.svg' %}" class="site-footer__icon" alt="">
+            </a>
+            <a class="site-footer__link" href="https://vk.com/vaalenok">
+                <img src="{% static 'images/icons/vk.svg' %}" class="site-footer__icon" alt="">
+            </a>
+            <a class="site-footer__link" href="https://github.com/Vaalenok">
+                <img src="{% static 'images/icons/github.svg' %}" class="site-footer__icon" alt="">
+            </a>
+            <a class="site-footer__link" href="https://www.codewars.com/users/Vaalenok">
+                <img src="{% static 'images/icons/codewars.svg' %}" class="site-footer__icon" alt="">
+            </a>
+        </footer>
+    </body>
+</html>

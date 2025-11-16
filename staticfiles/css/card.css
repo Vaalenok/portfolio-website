@@ -1,0 +1,53 @@
+.cards {
+    column-width: 300px;
+    column-gap: 20px;
+}
+
+.cards .card {
+    margin-bottom: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    break-inside: avoid;
+    page-break-inside: avoid;
+    background: #fff;
+}
+
+.card a {
+    display: block;
+    color: #000;
+}
+
+.card img {
+    display: block;
+    width: 100%;
+}
+
+.card .padding {
+    padding: 24px 30px;
+}
+
+.card .tags {
+    margin-bottom: 7.5px;
+    font-size: 14px;
+}
+
+.card .title {
+    margin: 0;
+    font-size: 3rem;
+    line-height: 1.2;
+}
+
+.card .title+p {
+    margin-top: 15px;
+}
+
+.card p {
+    margin-bottom: 0;
+    color: #a1a1a1;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 800px), (max-height: 470px) {
+    .cards .card {
+        margin-bottom: 20px;
+    }
+}
